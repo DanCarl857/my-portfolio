@@ -1,0 +1,29 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "My portfolio website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanCarl857/my-portfolio.git"
+  },
+  "author": "Daniel Carlson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanCarl857/my-portfolio/issues"
+  },
+  "homepage": "https://github.com/DanCarl857/my-portfolio#readme",
+  "devDependencies": {
+    "del": "^5.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-csso": "^3.0.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2",
+    "run-sequence": "^2.2.1"
+  }
+}
