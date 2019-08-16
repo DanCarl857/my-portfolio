@@ -36,14 +36,14 @@ gulp.task('styles', () => {
         .pipe(autoprefixer({browsers: AUTOPREFIXER_BROWSERS}))
         .pipe(csso())
         // Output
-        .pipe(gulp.dest('./dist/css'))
+        .pipe(gulp.dest('./css'))
 })
 
 // Gulp task to minify Javascript files
 gulp.task('scripts', () => {
     return gulp.src('./src/js/**/*.js')
         .pipe(uglify())
-        .pipe(gulp.dest('./dist/js'))
+        .pipe(gulp.dest('./js'))
 })
 
 // Gulp task to minify HTML files
@@ -53,7 +53,7 @@ gulp.task('html', () => {
             collapseWhitespace: true,
             removeComments: true
         }))
-        .pipe(gulp.dest('./dist'))
+        .pipe(gulp.dest('./'))
 })
 
 // Clean output directory
